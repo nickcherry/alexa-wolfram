@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='9'
+    datatypes='Number'
+    timedout='Numeric'
+    timedoutpods=''
+    timing='1.768'
+    parsetiming='0.124'
+    parsetimedout='false'
+    recalculate='http://www4b.wolframalpha.com/api/v2/recalc.jsp?id=MSPa18681g3f9c8e4c7a5h1500002dhbfdh3cibh5ge3&amp;redisFailed=true&amp;s=63'
+    id='MSPa18691g3f9c8e4c7a5h1500003caae605e9e2c478'
+    host='http://www4b.wolframalpha.com'
+    server='63'
+    related='http://www4b.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa18701g3f9c8e4c7a5h150000210eh498c30c1ae8&amp;redisFailed=true&amp;s=63'
+    version='2.6'>
+ <pod title='Input'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18711g3f9c8e4c7a5h1500002g02h23h00g69ah9?MSPStoreType=image/gif&amp;s=63'
+       alt='40'
+       title='40'
+       width='16'
+       height='18' />
+   <plaintext>40</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Number name'
+     scanner='Integer'
+     id='NumberName'
+     position='200'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18721g3f9c8e4c7a5h15000017ggfgh4icif62e0?MSPStoreType=image/gif&amp;s=63'
+       alt='forty'
+       title='forty'
+       width='32'
+       height='18' />
+   <plaintext>forty</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Number line'
+     scanner='NumberLine'
+     id='NumberLine'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18731g3f9c8e4c7a5h150000160c0cef3bbgb635?MSPStoreType=image/gif&amp;s=63'
+       alt=''
+       title=''
+       width='300'
+       height='56' />
+   <plaintext></plaintext>
+  </subpod>
+ </pod>
+ <pod title='Roman numerals'
+     scanner='Integer'
+     id='RomanNumerals'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18741g3f9c8e4c7a5h15000018fd509h2g4d8b9i?MSPStoreType=image/gif&amp;s=63'
+       alt='XL'
+       title='XL'
+       width='17'
+       height='18' />
+   <plaintext>XL</plaintext>
+  </subpod>
+  <states count='1'>
+   <state name='Other historical numerals'
+       input='RomanNumerals__Other historical numerals' />
+  </states>
+ </pod>
+ <pod title='Binary form'
+     scanner='Integer'
+     id='BaseConversions'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18751g3f9c8e4c7a5h1500005i43c7i1g1g989b7?MSPStoreType=image/gif&amp;s=63'
+       alt='101000_2'
+       title='101000_2'
+       width='55'
+       height='18' />
+   <plaintext>101000_2</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Prime factorization'
+     scanner='Integer'
+     id='PrimeFactorization'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18761g3f9c8e4c7a5h150000407bgad5i96ghd09?MSPStoreType=image/gif&amp;s=63'
+       alt='2^3×5'
+       title='2^3×5'
+       width='37'
+       height='18' />
+   <plaintext>2^3×5</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Residues modulo small integers'
+     scanner='Integer'
+     id='ResiduesModuloSmallIntegers'
+     position='700'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18771g3f9c8e4c7a5h1500000h2h2e7cgh7fah71?MSPStoreType=image/gif&amp;s=63'
+       alt='m | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+40 mod m | 0 | 1 | 0 | 0 | 4 | 5 | 0 | 4'
+       title='m | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+40 mod m | 0 | 1 | 0 | 0 | 4 | 5 | 0 | 4'
+       width='322'
+       height='68' />
+   <plaintext>m | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+40 mod m | 0 | 1 | 0 | 0 | 4 | 5 | 0 | 4</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Properties'
+     scanner='Integer'
+     id='Property'
+     position='800'
+     error='false'
+     numsubpods='5'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18781g3f9c8e4c7a5h1500000fh84c56b1a8f824?MSPStoreType=image/gif&amp;s=63'
+       alt='40 is an even number.'
+       title='40 is an even number.'
+       width='145'
+       height='18' />
+   <plaintext>40 is an even number.</plaintext>
+  </subpod>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18791g3f9c8e4c7a5h1500002g278dgii40gec4f?MSPStoreType=image/gif&amp;s=63'
+       alt='40 has a representation as a sum of 2 squares:
+40 = 2^2+6^2'
+       title='40 has a representation as a sum of 2 squares:
+40 = 2^2+6^2'
+       width='304'
+       height='43' />
+   <plaintext>40 has a representation as a sum of 2 squares:
+40 = 2^2+6^2</plaintext>
+  </subpod>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18801g3f9c8e4c7a5h15000015h2e89hecei98fc?MSPStoreType=image/gif&amp;s=63'
+       alt='A regular tetracontagon is constructible with straightedge and compass.'
+       title='A regular tetracontagon is constructible with straightedge and compass.'
+       width='473'
+       height='18' />
+   <plaintext>A regular tetracontagon is constructible with straightedge and compass.</plaintext>
+  </subpod>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18811g3f9c8e4c7a5h1500004bh1c337d8i28323?MSPStoreType=image/gif&amp;s=63'
+       alt='40 = 1111_3 repeats a single digit in base 3.'
+       title='40 = 1111_3 repeats a single digit in base 3.'
+       width='280'
+       height='18' />
+   <plaintext>40 = 1111_3 repeats a single digit in base 3.</plaintext>
+  </subpod>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18821g3f9c8e4c7a5h1500004acbgf77ci13d6i2?MSPStoreType=image/gif&amp;s=63'
+       alt='The ring of integers of the field Q(sqrt(-40)) has class number 2.'
+       title='The ring of integers of the field Q(sqrt(-40)) has class number 2.'
+       width='403'
+       height='26' />
+   <plaintext>The ring of integers of the field Q(sqrt(-40)) has class number 2.</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Quadratic residues modulo 40'
+     scanner='Integer'
+     id='QuadraticResiduesModuloInteger'
+     position='900'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4b.wolframalpha.com/Calculate/MSP/MSP18831g3f9c8e4c7a5h150000276482gea6a3hiee?MSPStoreType=image/gif&amp;s=63'
+       alt='0, 1, 4, 9, 16, 20, 24, 25, 36'
+       title='0, 1, 4, 9, 16, 20, 24, 25, 36'
+       width='550'
+       height='18' />
+   <plaintext>0, 1, 4, 9, 16, 20, 24, 25, 36</plaintext>
+  </subpod>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='Clash'
+      word='forty'
+      template='Assuming &quot;${word}&quot; is ${desc1}. Use as ${desc2} instead'
+      count='2'>
+   <value name='NamedNumber'
+       desc='a number'
+       input='*C.forty-_*NamedNumber-' />
+   <value name='Word'
+       desc='a word'
+       input='*C.forty-_*Word-' />
+  </assumption>
+ </assumptions>
+</queryresult>

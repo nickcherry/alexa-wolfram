@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='true'
+    error='false'
+    numpods='6'
+    datatypes='Math'
+    timedout=''
+    timedoutpods=''
+    timing='0.874'
+    parsetiming='0.124'
+    parsetimedout='false'
+    recalculate=''
+    id='MSPa4471g0ghicbcc8c533100001h4f185bd51f4b30'
+    host='http://www4c.wolframalpha.com'
+    server='60'
+    related='http://www4c.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa4481g0ghicbcc8c5331000068e643268b784f9h&amp;redisFailed=true&amp;s=60'
+    version='2.6'>
+ <pod title='Input'
+     scanner='Identity'
+     id='Input'
+     position='100'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4491g0ghicbcc8c53310000165d00i441dedbf7?MSPStoreType=image/gif&amp;s=60'
+       alt='2×2'
+       title='2×2'
+       width='30'
+       height='18' />
+   <plaintext>2×2</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Result'
+     scanner='Simplification'
+     id='Result'
+     position='200'
+     error='false'
+     numsubpods='1'
+     primary='true'>
+  <subpod title=''>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4501g0ghicbcc8c5331000051607b98f54acdgc?MSPStoreType=image/gif&amp;s=60'
+       alt='4'
+       title='4'
+       width='8'
+       height='18' />
+   <plaintext>4</plaintext>
+  </subpod>
+  <states count='1'>
+   <state name='Step-by-step solution'
+       input='Result__Step-by-step solution' />
+  </states>
+ </pod>
+ <pod title='Number name'
+     scanner='Integer'
+     id='NumberName'
+     position='300'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4511g0ghicbcc8c53310000307e99iba07c11de?MSPStoreType=image/gif&amp;s=60'
+       alt='four'
+       title='four'
+       width='28'
+       height='18' />
+   <plaintext>four</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Visual representation'
+     scanner='Integer'
+     id='VisualRepresentation'
+     position='400'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4521g0ghicbcc8c533100002f7ch5712498647b?MSPStoreType=image/gif&amp;s=60'
+       alt='* * * *'
+       title='* * * *'
+       width='49'
+       height='17' />
+   <plaintext>* * * *</plaintext>
+  </subpod>
+ </pod>
+ <pod title='Number line'
+     scanner='NumberLine'
+     id='NumberLine'
+     position='500'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4531g0ghicbcc8c533100004425gfe7ag7d5af7?MSPStoreType=image/gif&amp;s=60'
+       alt=''
+       title=''
+       width='300'
+       height='56' />
+   <plaintext></plaintext>
+  </subpod>
+ </pod>
+ <pod title='Illustration'
+     scanner='Arithmetic'
+     id='Illustration'
+     position='600'
+     error='false'
+     numsubpods='1'>
+  <subpod title=''>
+   <img src='http://www4c.wolframalpha.com/Calculate/MSP/MSP4541g0ghicbcc8c533100001fch0ci76a592ddf?MSPStoreType=image/gif&amp;s=60'
+       alt=''
+       title=''
+       width='49'
+       height='54' />
+   <plaintext></plaintext>
+  </subpod>
+ </pod>
+ <assumptions count='1'>
+  <assumption type='ListOrTimes'
+      template='Assuming ${desc1}. Use ${desc2} instead'
+      count='2'>
+   <value name='Times'
+       desc='multiplication'
+       input='ListOrTimes_Times' />
+   <value name='List'
+       desc='a list'
+       input='ListOrTimes_List' />
+  </assumption>
+ </assumptions>
+</queryresult>

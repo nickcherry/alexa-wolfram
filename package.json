@@ -1,0 +1,17 @@
+{
+  "name": "alexa-wolfram-server",
+  "version": "1.0.0",
+  "description": "Development server for Alexa Wolfram",
+  "main": "serve.js",
+  "scripts": {
+    "preinstall": "npm install --prefix apps/wolfram apps/wolfram",
+    "start": "node serve",
+    "test": "./apps/wolfram/node_modules/mocha/bin/_mocha ./apps/wolfram/test",
+    "test-debug": "node --inspect --debug-brk ./apps/wolfram/node_modules/mocha/bin/_mocha ./apps/wolfram/test --timeout=0"
+  },
+  "author": "Nick Cherry",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app-server": "^2.2.4"
+  }
+}

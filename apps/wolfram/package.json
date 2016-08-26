@@ -1,0 +1,16 @@
+{
+  "name": "alexa-wolfram",
+  "version": "1.0.0",
+  "description": "Forward Alexa questions to Wolfram Alpha.",
+  "main": "index.js",
+  "author": "Nick Cherry",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.2",
+    "chai": "^3.5.0",
+    "lodash": "^4.3.0",
+    "mocha": "^2.4.5",
+    "request-promise": "^2.0.0",
+    "xml2json": "^0.10.0"
+  }
+}

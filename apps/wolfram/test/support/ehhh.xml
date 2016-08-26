@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<queryresult success='false'
+    error='false'
+    numpods='0'
+    datatypes=''
+    timedout=''
+    timedoutpods=''
+    timing='0.536'
+    parsetiming='0.064'
+    parsetimedout='false'
+    recalculate=''
+    id=''
+    host='http://www5b.wolframalpha.com'
+    server='58'
+    related=''
+    version='2.6'>
+ <tips count='1'>
+  <tip text='Try spelling out abbreviations' />
+ </tips>
+</queryresult>
