@@ -73,9 +73,9 @@ describe('WolframService', () => {
 
   describe('#_parse', () => {
     context('with valid xml from Wolfram', () => {
-      it('should parse the document and return an object', () => {
-        const parsed = subject._parse(twoPlusTwoXml);
-        expect(parsed.queryresult.pod).to.be.an('array');
+      it('should parse the document and return an XmlDocument object', () => {
+        const xml = subject._parse(twoPlusTwoXml);
+        expect(xml.constructor.name).to.eq('XmlDocument');
       });
     });
     context('with invalid xml', () => {

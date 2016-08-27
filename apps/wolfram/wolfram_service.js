@@ -5,8 +5,8 @@
 /***********************************************/
 
 const _ = require('lodash');
-const parser = require('xml2json');
 const rp = require('request-promise');
+const xmldoc = require('xmldoc');
 
 const WOLFRAM_BASE_URL = 'http://api.wolframalpha.com/v2/query';
 
@@ -34,24 +34,23 @@ class WolframService {
     return rp(opts);
   }
 
-  extractResultText(xml) {
+  extractResultText(xmlString) {
     try {
-      const pods = this._parse(xml).queryresult.pod;
-      if (!pods) return;
-      const primary = this._plaintext(_.find(pods, { primary: 'true' }));
-      return primary ? primary : _.compact(pods.map(this._plaintext))[0];
+      const xml = this._parse(xmlString);
+      const primaryPod = xml.childWithAttribute('primary', 'true');
+      if (primaryPod) return this._plaintext(primaryPod);
+      return _.compact(xml.childrenNamed('pod').map(this._plaintext))[0];
     } catch(e) {}
   }
 
-  _parse(xml) {
+  _parse(xmlString) {
     try {
-      return parser.toJson(xml, { object: true });
+      return new xmldoc.XmlDocument(xmlString);
     } catch(e) {}
   }
 
-  _plaintext(pod) {
-    if (!pod || !pod.subpod) return;
-    return pod.subpod.plaintext;
+  _plaintext(podXml) {
+    return podXml ? podXml.descendantWithPath('subpod.plaintext').val : undefined;
   };
 }
 

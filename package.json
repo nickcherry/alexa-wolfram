@@ -13,7 +13,6 @@
   "author": "Nick Cherry",
   "license": "ISC",
   "dependencies": {
-    "alexa-app-server": "^2.2.4",
-    "lambda-packager": "^0.2.1"
+    "alexa-app-server": "^2.2.4"
   }
 }

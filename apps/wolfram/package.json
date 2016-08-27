@@ -11,6 +11,6 @@
     "lodash": "^4.3.0",
     "mocha": "^2.4.5",
     "request-promise": "^2.0.0",
-    "xml2json": "^0.10.0"
+    "xmldoc": "^0.5.1"
   }
 }
