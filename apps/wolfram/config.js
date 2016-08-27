@@ -17,6 +17,9 @@ class Config {
   static get wolframAppId() {
     return secrets.wolframAppId;
   }
+  static get bugsnagApiKey() {
+    return secrets.bugsnagApiKey;
+  }
 }
 
 module.exports = Config;
