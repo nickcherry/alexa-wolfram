@@ -27,6 +27,14 @@ To start the [alexa-app-server](https://github.com/matt-kruse/alexa-app-server),
 npm start
 ```
 
+## Deployment
+
+To generate a zip file of the files required by Lambda, run the following from the project root:
+
+```shell
+npm run build
+```
+
 ## Tests
 
 To run the test suite, run the following from the project root:
